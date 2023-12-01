@@ -1,0 +1,60 @@
+/* styles.css */
+/* Common styles for both login and signup forms */
+body{
+    background-color: #007bff;
+}
+.container-login{
+    margin: 15rem auto;
+}
+
+form {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-top: 20px;
+    font-size: 1.2rem;
+  }
+  
+  label {
+    margin-bottom: 8px;
+  }
+  
+  input {
+    padding: 8px;  
+    margin-bottom: 16px; 
+    border: 2px solid #ccc;
+    border-radius: 14px;
+    width: 100%;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Specific styles for login form */
+  #login-form {
+    background-color: #f0f0f0;
+  }
+  
+  /* Specific styles for signup form */
+  #signup-form {
+    background-color: #e0e0e0;
+  }
+  h2{
+    font-size: 2rem;
+    text-align: center;
+  }

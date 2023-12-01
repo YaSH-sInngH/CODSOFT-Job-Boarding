@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Bebas+Neue&family=Bodoni+Moda:opsz@6..96&family=Cinzel&family=Kenia&family=Lora&family=Monoton&family=Rubik+Mono+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 95vh;
+    background: linear-gradient(to right, rgb(44, 66, 129) 0%,rgb(44, 66, 129) 50%, rgb(55, 118, 176) 50%, rgb(55, 118, 176) 100%);
+}
+.left-con{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left-con img{
+    width: 25rem;
+    /* margin-bottom: 20rem; */
+    /* margin-right: 30rem; */
+    transform: scaleX(-1);
+}
+.left-con p{
+    font-size: 5rem;
+    color: white;
+    font-family: 'Agbalumo', sans-serif;
+}
+.left-con-sty {
+    margin: 2rem;
+}
+.left-con-sty p{
+    margin: 3.2rem 0;
+}
+.left-con-sty button{
+    padding: 10px;
+    width: 15rem;
+    border: 2px solid black;
+    background-color: rgb(47, 208, 249);
+}
+.left-con-sty button:hover{
+    background-color: rgb(47, 187, 173) ;
+}
+
+.left-con-sty a{
+    color: black;
+    font-size: 1.2rem;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left-con-sty span{
+    font-size: 30px;
+    line-height: 15px;
+    margin-left: 5px;
+}
+
+.right-con{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right-con img{
+    width: 25rem;
+}
+.right-con p{
+    font-size: 5rem;
+    color: white;
+    font-family: 'Agbalumo', sans-serif;
+}

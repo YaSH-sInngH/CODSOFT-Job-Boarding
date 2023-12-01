@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bodoni+Moda:opsz@6..96&family=Cinzel&family=Kenia&family=Lora&family=Monoton&family=Rubik+Mono+One&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(34, 158, 229);
+    color: white;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  ul li {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 0 2rem;
+  }
+  
+  .middle {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .midduji {
+    width: 40%;
+    padding: 5px;
+    margin-right: 5px;
+    margin-bottom: 0;
+    outline: none;
+    border: 2px solid black;
+    font-size: 1.1rem;
+    border-radius: 10px;
+  }
+  
+   input button {
+    padding: 5px;
+    font-size: 1.1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  button:hover{
+    background-color: rgb(213, 213, 213);
+  }
+  nav ul li a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    font-size: 1.5rem;
+    transition: 0.3s;
+  }
+  nav ul li a:hover {
+    color: rgb(52, 52, 52);
+  }
+  .login-container {
+    align-items: center;
+  }
+  .image{
+    margin-top: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 22px;
+  }
+  .image:hover{
+    filter: invert(100%);
+  }
+  .logo {
+    font-size: 2rem;
+    background-color: rgb(11, 36, 117);
+  }
+  
+  .logo span {
+    font-size: 1rem;
+    font-family: 'Cinzel', serif;
+    vertical-align: baseline; /* Align the small letters above the baseline */
+    margin-left: -1px; /* Adjust the position for better visual appeal */
+    color: rgb(255, 255, 255); /* Add color or any other style to make it funky */
+  }
